@@ -1,2 +1,2 @@
 #!/bin/bash
-result=$(printf "%o\n" $((5#"$WATER" + 5#"$STIR")) | tr '01234567' 'bestchol')
+printf "%o\n" $((5#"$WATER" + 5#"$STIR")) | tr '01234567' 'bestchol'
